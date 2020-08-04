@@ -31,4 +31,8 @@ function colorClock(){
 
 }
 
+window.onload = function () {
+colorClock();
+}
+
 colorClock();
