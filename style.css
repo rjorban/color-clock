@@ -8,9 +8,17 @@ html, body {
 #clock {
   text-align: right;
   position: relative;
-  top: 80%;
-  right: 10%;
+  top: 75%;
+  right: 15%;
   font-family: 'Titillium Web', sans-serif;
   font-size: 68px;
   margin-top: -34px;
+}
+
+@media (max-width: 768px) {
+
+	#clock {
+			font-size: 48px;
+		}
+
 }
